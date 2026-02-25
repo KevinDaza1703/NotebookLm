@@ -26,19 +26,20 @@ NotebookLM funciona con una tecnología llamada **RAG (Retrieval-Augmented Gener
 
 Aquí tienes cómo funciona este flujo de manera visual:
 
+```mermaid
 graph TD
-    subgraph Capa de Interacción
+    subgraph capa_interaccion ["Capa de Interacción"]
         A[👤 1. Input: Prompt Estructurado / Query]
         F[✅ 5. Output: Respuesta Parametrizada con Trazabilidad y Citas]
     end
 
-    subgraph Motor de Recuperación RAG / Knowledge Base
+    subgraph capa_rag ["Motor de Recuperación RAG / Knowledge Base"]
         B{🔍 2. Búsqueda Semántica en Fuentes Privadas}
         C[📄 3a. Extracción de Nodos de Conocimiento]
         D[❌ 3b. Mitigación de Riesgo: 'Sin Evidencia en Fuentes']
     end
 
-    subgraph Capa de Procesamiento LLM
+    subgraph capa_llm ["Capa de Procesamiento LLM"]
         E[⚙️ 4. Inyección de Contexto y Cruce de Variables]
     end
 
@@ -58,6 +59,7 @@ graph TD
     class B,C retrieval;
     class E engine;
     class D alert;
+```
 
 > [!TIP]
 > **Audio Overviews (El Podcast de tu vida):** Además de texto, NotebookLM puede convertir tus apuntes o documentos financieros en un "podcast" donde dos presentadores de IA discuten tu información de forma amena. Pruébalo y me cuentas!! 
