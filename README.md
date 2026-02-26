@@ -72,10 +72,9 @@ Para sacarle el máximo provecho, He diseñado un flujo de trabajo estructurado 
 
 | Carpeta | Contenido Principal | Objetivo Estratégico | Nivel |
 | :--- | :--- | :--- | :---: |
-| `📁 /plantillas` | Documentos maestros en blanco | Estandarizar la forma en que le entregas datos a la IA (inputs) | 🟢 Básico |
-| `📁 /prompts` | Fórmulas y estructuras de texto | Enseñar a la IA a pensar de forma crítica y cruzar variables | 🟡 Intermedio |
-| `📁 /ejemplos` | Casos de estudio documentados | Mostrar el "Antes y Después" en escenarios reales para inspirarte | 🔴 Avanzado |
-
+| [`📁 /plantillas`](./plantillas) | Documentos maestros en blanco. | Estandarizar la forma en que le entregas datos a la IA (inputs). | 🟢 Básico |
+| [`📁 /prompts`](./prompts) | Fórmulas y estructuras de texto. | Enseñar a la IA a pensar de forma crítica y cruzar variables. | 🟡 Intermedio |
+| [`📁 /ejemplos`](./ejemplos) | Casos de estudio documentados. | Mostrar el "Antes y Después" en escenarios reales para inspirarte. | 🔴 Avanzado |
 ---
 
 ## 🚀 3. El Sistema Paso a Paso
